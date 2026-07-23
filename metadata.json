@@ -1,0 +1,6 @@
+{
+  "name": "Liquidity Traders",
+  "description": "Minimalist mentorship landing page for Sang Trades - Liquidity Traders featuring institutional trading frameworks, interactive strategy visualizers, and mentorship booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
