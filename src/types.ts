@@ -1,27 +1,3 @@
-export interface MentorshipTier {
-  id: string;
-  title: string;
-  badge?: string;
-  price: string;
-  period: string;
-  description: string;
-  features: string[];
-  recommended?: boolean;
-  ctaText: string;
-}
-
-export interface Testimonial {
-  id: string;
-  name: string;
-  handle: string;
-  avatar: string;
-  fundedAmount: string;
-  returnPercent: string;
-  quote: string;
-  strategyUsed: string;
-  timeToFunded: string;
-}
-
 export interface StrategyPillar {
   id: string;
   number: string;
@@ -29,15 +5,10 @@ export interface StrategyPillar {
   subtitle: string;
   description: string;
   keyTakeaways: string[];
-  diagramType: 'sweep' | 'fvg' | 'mss' | 'killzone';
+  diagramType: 'buildup' | 'inducement' | 'mitigation';
 }
 
-export interface ApplicationFormData {
-  fullName: string;
-  email: string;
-  discordHandle: string;
-  tradingExperience: string;
-  capitalRange: string;
-  mentorshipTrack: string;
-  biggestChallenge: string;
+export interface FaqItem {
+  question: string;
+  answer: string;
 }
