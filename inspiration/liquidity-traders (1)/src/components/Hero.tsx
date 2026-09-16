@@ -9,7 +9,7 @@ interface HeroProps {
 export const Hero: React.FC<HeroProps> = ({ onOpenApplication }) => {
   return (
     <section className="relative pt-12 pb-20 lg:pt-20 lg:pb-24 bg-slate-50 text-slate-900 border-b border-slate-200 overflow-hidden">
-      {/* Background trading chart overlay */}
+      { }
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-20 pointer-events-none mix-blend-multiply contrast-100"
         style={{ backgroundImage: `url('/forex_bg.jpeg')` }}
@@ -19,16 +19,16 @@ export const Hero: React.FC<HeroProps> = ({ onOpenApplication }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-12 items-center">
           
-          {/* Left Text Content */}
+          { }
           <div className="lg:col-span-7 space-y-8 text-center lg:text-left">
             
-            {/* Tag */}
+            { }
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-red-600 text-white text-[11px] font-bold tracking-[0.2em] uppercase shadow-sm">
               <span className="w-2 h-2 bg-white animate-pulse" />
               <span>SANG TRADES LIQUIDITY MASTERY</span>
             </div>
 
-            {/* Main Editorial Headline */}
+            { }
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-editorial text-slate-900 tracking-tight uppercase leading-[0.95]">
               MASTER THE <br />
               <span className="text-red-600 underline decoration-red-600 decoration-4 underline-offset-6">
@@ -37,12 +37,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenApplication }) => {
               FOREX LIQUIDITY MODEL.
             </h1>
 
-            {/* Subtitle */}
+            { }
             <p className="text-base sm:text-lg text-slate-700 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
               Stop trading retail patterns. Trade institutional Forex orderflow: <strong className="text-slate-900 font-semibold">Build Up → Inducement → Mitigation</strong>. Sang Trades teaches serious traders how market algorithms sweep liquidity across major and minor Forex pairs.
             </p>
 
-            {/* Key Value Points */}
+            { }
             <div className="grid sm:grid-cols-3 gap-3 pt-1 text-left font-bold text-xs uppercase tracking-wider text-slate-800">
               <div className="flex items-center gap-2 p-3 bg-white border-2 border-slate-200 shadow-sm">
                 <CheckCircle2 className="w-4 h-4 text-red-600 shrink-0" />
@@ -58,7 +58,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenApplication }) => {
               </div>
             </div>
 
-            {/* Sharp CTAs */}
+            { }
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
               <button
                 onClick={() => onOpenApplication()}
@@ -79,7 +79,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenApplication }) => {
               </a>
             </div>
 
-            {/* Trust note */}
+            { }
             <div className="pt-1 flex items-center justify-center lg:justify-start gap-2.5 text-xs text-slate-600 font-bold uppercase tracking-wider">
               <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
               <span>Sang Trades Direct Contact: WhatsApp +254719250533</span>
@@ -87,10 +87,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenApplication }) => {
 
           </div>
 
-          {/* Right Hero Visual Card with Editorial Column */}
+          { }
           <div className="lg:col-span-5 space-y-6">
             
-            {/* Master Map Chart Image Card */}
+            { }
             <div className="relative border-2 border-slate-200 bg-white p-2 shadow-xl group overflow-hidden transition-all duration-300 hover:border-red-500 hover:shadow-2xl">
               <img
                 src={masterMapImg}
@@ -101,7 +101,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenApplication }) => {
               />
             </div>
 
-            {/* Editorial Stats Box (Matching Theme 01 Callout) */}
+            { }
             <div className="border-2 border-slate-200 p-6 bg-white relative overflow-hidden space-y-4 shadow-lg">
               <div className="absolute -top-8 -right-2 text-8xl font-bold font-editorial text-slate-200 select-none pointer-events-none">
                 01

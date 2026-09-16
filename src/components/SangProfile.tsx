@@ -4,9 +4,9 @@ import { PROTOCOL_RULES, WHATSAPP_LINK, WHATSAPP_NUMBER } from '../data/landingD
 export const SangProfile = () => {
   return (
     <div id="sang-profile" className="bg-white text-slate-900 relative">
-      {/* SECTION 1: Sang Trades Manifesto */}
+      { }
       <section className="py-20 border-b border-slate-200 relative overflow-hidden">
-        {/* Background overlay */}
+        { }
         <div
           className="absolute inset-0 bg-cover bg-center opacity-15 pointer-events-none mix-blend-multiply contrast-100"
           style={{ backgroundImage: "url('/background.jpeg')" }}
@@ -15,7 +15,7 @@ export const SangProfile = () => {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-12 gap-12 items-center">
-            {/* Photo Column */}
+            { }
             <div className="lg:col-span-5 space-y-4">
               <div className="relative border-2 border-slate-200 bg-slate-50 p-2 shadow-xl group">
                 <img
@@ -48,9 +48,9 @@ export const SangProfile = () => {
               </div>
             </div>
 
-            {/* Text Column */}
+            { }
             <div className="lg:col-span-7 space-y-8 relative">
-              {/* Watermark */}
+              { }
               <div className="absolute -top-10 right-0 text-9xl font-bold font-editorial text-slate-100 select-none pointer-events-none hidden sm:block">
                 01
               </div>
@@ -105,7 +105,7 @@ export const SangProfile = () => {
                 </div>
               </div>
 
-              {/* WhatsApp Callout */}
+              { }
               <div className="p-4 bg-emerald-50 border-2 border-emerald-300 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
                 <div>
                   <p className="text-xs font-bold text-emerald-800 uppercase tracking-wider">

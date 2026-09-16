@@ -8,11 +8,11 @@ export const InteractiveCalculator: React.FC = () => {
   const [winRate, setWinRate] = useState<number>(60);
   const [tradesPerMonth, setTradesPerMonth] = useState<number>(16);
 
-  // Calculations
+  
   const riskAmount = (accountSize * riskPercent) / 100;
   const targetProfitAmount = riskAmount * rrRatio;
   
-  // Expected value per trade = (WinRate * TargetProfit) - (LossRate * RiskAmount)
+  
   const lossRate = (100 - winRate) / 100;
   const winRateDec = winRate / 100;
   const expectedValuePerTrade = (winRateDec * targetProfitAmount) - (lossRate * riskAmount);
@@ -26,7 +26,7 @@ export const InteractiveCalculator: React.FC = () => {
     <section id="calculator" className="py-20 bg-slate-50 border-b-2 border-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Section Header */}
+        { }
         <div className="relative text-center max-w-3xl mx-auto space-y-4 mb-16">
           <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-9xl font-black font-editorial text-slate-200/50 select-none pointer-events-none -z-10">
             04
@@ -45,10 +45,10 @@ export const InteractiveCalculator: React.FC = () => {
 
         <div className="grid lg:grid-cols-12 gap-8 items-start">
           
-          {/* Controls Column */}
+          { }
           <div className="lg:col-span-6 bg-white p-6 sm:p-8 border-2 border-slate-900 space-y-6">
             
-            {/* Account Size Select */}
+            { }
             <div className="space-y-3">
               <label className="text-xs font-black uppercase tracking-wider text-slate-900 flex justify-between">
                 <span>Account Balance</span>
@@ -82,7 +82,7 @@ export const InteractiveCalculator: React.FC = () => {
               />
             </div>
 
-            {/* Risk % Per Trade */}
+            { }
             <div className="space-y-3 pt-2">
               <label className="text-xs font-black uppercase tracking-wider text-slate-900 flex justify-between">
                 <span>Risk Per Setup (%)</span>
@@ -105,7 +105,7 @@ export const InteractiveCalculator: React.FC = () => {
               </div>
             </div>
 
-            {/* Risk-to-Reward Ratio Slider */}
+            { }
             <div className="space-y-3 pt-2">
               <label className="text-xs font-black uppercase tracking-wider text-slate-900 flex justify-between">
                 <span>Target Risk-to-Reward (R:R)</span>
@@ -127,7 +127,7 @@ export const InteractiveCalculator: React.FC = () => {
               </div>
             </div>
 
-            {/* Win Rate % & Monthly Trades */}
+            { }
             <div className="grid sm:grid-cols-2 gap-4 pt-2">
               <div className="space-y-2">
                 <label className="text-xs font-black uppercase text-slate-900">
@@ -162,7 +162,7 @@ export const InteractiveCalculator: React.FC = () => {
 
           </div>
 
-          {/* Results Visualizer Column */}
+          { }
           <div className="lg:col-span-6 bg-slate-950 p-6 sm:p-8 border-2 border-slate-900 text-white space-y-6 shadow-2xl">
             
             <div className="flex items-center justify-between border-b border-slate-800 pb-4">
@@ -174,7 +174,7 @@ export const InteractiveCalculator: React.FC = () => {
               </span>
             </div>
 
-            {/* Top Cards Grid */}
+            { }
             <div className="grid grid-cols-2 gap-4">
               
               <div className="bg-slate-900 p-4 border border-slate-800 space-y-1">
@@ -195,7 +195,7 @@ export const InteractiveCalculator: React.FC = () => {
 
             </div>
 
-            {/* Projected Monthly Box */}
+            { }
             <div className="bg-slate-900 p-6 border-2 border-red-600 space-y-3">
               <div className="flex items-center justify-between text-[10px] font-black text-red-500 uppercase tracking-widest">
                 <span className="flex items-center gap-1.5">
@@ -221,7 +221,7 @@ export const InteractiveCalculator: React.FC = () => {
               </p>
             </div>
 
-            {/* Visual Trade Risk/Reward Box */}
+            { }
             <div className="space-y-2 pt-2">
               <p className="text-[10px] font-mono text-slate-400 uppercase font-bold flex items-center justify-between">
                 <span>VISUAL POSITION RISK / REWARD BREAKDOWN</span>
@@ -229,14 +229,14 @@ export const InteractiveCalculator: React.FC = () => {
               </p>
 
               <div className="w-full border-2 border-slate-800 flex h-12 text-xs font-black font-mono uppercase">
-                {/* Red Risk Bar */}
+                { }
                 <div 
                   className="bg-red-600 text-white flex items-center justify-center p-2 transition-all duration-300"
                   style={{ width: `${(1 / (1 + rrRatio)) * 100}%` }}
                 >
                   SL (-{riskPercent}%)
                 </div>
-                {/* Green Target Bar */}
+                { }
                 <div 
                   className="bg-emerald-600 text-white flex items-center justify-center p-2 transition-all duration-300"
                   style={{ width: `${(rrRatio / (1 + rrRatio)) * 100}%` }}

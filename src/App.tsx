@@ -9,7 +9,7 @@ import { Footer } from './components/Footer';
 export default function App() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 selection:bg-red-600 selection:text-white flex flex-col font-sans relative overflow-x-hidden">
-      {/* Announcement Bar */}
+      { }
       <div className="bg-slate-900 text-white text-xs py-2.5 px-4 border-b border-slate-800 text-center font-bold tracking-wider uppercase shadow-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-center gap-3 flex-wrap">
           <span className="w-2 h-2 bg-red-600 animate-pulse-custom inline-block rounded-none" />
@@ -20,10 +20,10 @@ export default function App() {
         </div>
       </div>
 
-      {/* Navigation */}
+      { }
       <Navbar />
 
-      {/* Main Content */}
+      { }
       <main className="flex-grow">
         <Hero />
         <SangProfile />
@@ -32,7 +32,7 @@ export default function App() {
         <ChartMastery />
       </main>
 
-      {/* Footer */}
+      { }
       <Footer />
     </div>
   );

@@ -23,7 +23,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 selection:bg-red-600 selection:text-white flex flex-col font-sans relative overflow-x-hidden">
       
-      {/* Investing Forex Background Image Overlay (Light Theme) */}
+      { }
       <div 
         className="fixed inset-0 bg-cover bg-center opacity-20 pointer-events-none z-0 mix-blend-multiply contrast-125"
         style={{ backgroundImage: `url('/forex_bg.jpeg')` }}
@@ -31,7 +31,7 @@ export default function App() {
       <div className="fixed inset-0 bg-slate-50/85 pointer-events-none z-0" />
 
       <div className="relative z-10 flex flex-col min-h-screen">
-        {/* Top Announcement Bar */}
+        { }
         <div className="bg-slate-900 text-white text-xs py-2.5 px-4 border-b border-slate-800 text-center font-bold tracking-wider uppercase shadow-sm">
           <div className="max-w-7xl mx-auto flex items-center justify-center gap-3">
             <span className="w-2 h-2 bg-red-500 animate-pulse inline-block"></span>
@@ -45,19 +45,19 @@ export default function App() {
           </div>
         </div>
 
-        {/* Navigation */}
+        { }
         <Navbar onOpenApplication={handleOpenApplication} />
 
-        {/* Main Content Sections */}
+        { }
         <main className="flex-grow">
           <Hero onOpenApplication={handleOpenApplication} />
           <SangProfile onOpenApplication={handleOpenApplication} />
         </main>
 
-        {/* Footer */}
+        { }
         <Footer />
 
-        {/* Application Modal */}
+        { }
         <ApplicationModal
           isOpen={isModalOpen}
           onClose={handleCloseApplication}

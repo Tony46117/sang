@@ -46,7 +46,7 @@ export const ApplicationModal: React.FC<ApplicationModalProps> = ({
       
       <div className="bg-white max-w-2xl w-full border-2 border-slate-200 shadow-2xl overflow-hidden relative max-h-[90vh] flex flex-col text-slate-900">
         
-        {/* Header Bar */}
+        { }
         <div className="p-6 bg-slate-900 text-white flex items-center justify-between border-b border-slate-800">
           <div>
             <div className="flex items-center gap-2">
@@ -69,7 +69,7 @@ export const ApplicationModal: React.FC<ApplicationModalProps> = ({
           </button>
         </div>
 
-        {/* Progress Bar */}
+        { }
         {!submitted && (
           <div className="w-full bg-slate-100 h-1.5 flex">
             <div
@@ -79,13 +79,13 @@ export const ApplicationModal: React.FC<ApplicationModalProps> = ({
           </div>
         )}
 
-        {/* Modal Content Body */}
+        { }
         <div className="p-6 sm:p-8 overflow-y-auto space-y-6">
           
           {!submitted ? (
             <form onSubmit={handleNext} className="space-y-6">
               
-              {/* STEP 1: Personal Info */}
+              { }
               {step === 1 && (
                 <div className="space-y-4">
                   <div className="border-b border-slate-200 pb-3">
@@ -142,7 +142,7 @@ export const ApplicationModal: React.FC<ApplicationModalProps> = ({
                 </div>
               )}
 
-              {/* STEP 2: Trading Experience & Capital */}
+              { }
               {step === 2 && (
                 <div className="space-y-4">
                   <div className="border-b border-slate-200 pb-3">
@@ -203,7 +203,7 @@ export const ApplicationModal: React.FC<ApplicationModalProps> = ({
                 </div>
               )}
 
-              {/* STEP 3: Mentorship Details */}
+              { }
               {step === 3 && (
                 <div className="space-y-4">
                   <div className="border-b border-slate-200 pb-3">
@@ -232,7 +232,7 @@ export const ApplicationModal: React.FC<ApplicationModalProps> = ({
                 </div>
               )}
 
-              {/* Form Navigation Buttons */}
+              { }
               <div className="flex items-center justify-between pt-4 border-t border-slate-200">
                 {step > 1 ? (
                   <button
@@ -258,7 +258,7 @@ export const ApplicationModal: React.FC<ApplicationModalProps> = ({
 
             </form>
           ) : (
-            /* SUBMITTED CONFIRMATION STATE */
+             
             <div className="text-center py-8 space-y-6">
               <div className="w-16 h-16 bg-red-600 text-white flex items-center justify-center mx-auto shadow-md">
                 <CheckCircle className="w-10 h-10" />
@@ -276,7 +276,7 @@ export const ApplicationModal: React.FC<ApplicationModalProps> = ({
                 </p>
               </div>
 
-              {/* WhatsApp direct callout */}
+              { }
               <div className="p-6 bg-emerald-50 border-2 border-emerald-300 text-left space-y-4 shadow-sm">
                 <div className="flex items-center justify-between border-b border-emerald-200 pb-3">
                   <div className="flex items-center gap-2 text-xs font-bold text-emerald-800 uppercase tracking-wider">

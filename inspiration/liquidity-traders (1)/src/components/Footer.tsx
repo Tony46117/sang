@@ -7,10 +7,10 @@ export const Footer: React.FC = () => {
     <footer className="bg-slate-100 text-slate-900 border-t border-slate-200 pt-16 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         
-        {/* Top Footer Row */}
+        { }
         <div className="grid md:grid-cols-12 gap-8 items-start">
           
-          {/* Brand Info */}
+          { }
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
               <div className="relative overflow-hidden rounded border border-slate-200 bg-white p-1 shadow-sm">
@@ -46,7 +46,7 @@ export const Footer: React.FC = () => {
             </a>
           </div>
 
-          {/* Quick Links */}
+          { }
           <div className="md:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-6 text-xs font-bold uppercase tracking-wider">
             
             <div className="space-y-3">
@@ -86,7 +86,7 @@ export const Footer: React.FC = () => {
 
         </div>
 
-        {/* Risk Disclaimer Box */}
+        { }
         <div className="p-4 bg-white border-2 border-slate-200 text-[11px] text-slate-600 space-y-2 leading-relaxed font-medium shadow-sm">
           <div className="flex items-center gap-2 text-red-600 font-bold uppercase tracking-[0.2em] text-[10px]">
             <ShieldAlert className="w-4 h-4" />
@@ -97,7 +97,7 @@ export const Footer: React.FC = () => {
           </p>
         </div>
 
-        {/* Bottom Copyright */}
+        { }
         <div className="pt-6 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between text-[11px] font-mono text-slate-500 gap-4 uppercase font-bold">
           <p>© {new Date().getFullYear()} LIQUIDITY TRADERS BY SANG TRADES. ALL RIGHTS RESERVED.</p>
           <div className="flex gap-6">

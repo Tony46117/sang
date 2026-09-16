@@ -7,7 +7,7 @@ export const Testimonials: React.FC = () => {
     <section id="testimonials" className="py-20 bg-slate-50 border-b-2 border-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Header */}
+        { }
         <div className="relative text-center max-w-3xl mx-auto space-y-4 mb-16">
           <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-9xl font-black font-editorial text-slate-200/50 select-none pointer-events-none -z-10">
             06

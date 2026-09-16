@@ -39,9 +39,9 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
   return (
     <div id="sang-profile" className="bg-white text-slate-900 relative">
       
-      {/* SECTION 1: SANG TRADES MANIFESTO & PROFILE */}
+      { }
       <section className="py-20 border-b border-slate-200 relative overflow-hidden">
-        {/* Background trading chart overlay */}
+        { }
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-15 pointer-events-none mix-blend-multiply contrast-100"
           style={{ backgroundImage: `url('/forex_bg.jpeg')` }}
@@ -52,7 +52,7 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
           
           <div className="grid lg:grid-cols-12 gap-12 items-center">
             
-            {/* Portrait Column */}
+            { }
             <div className="lg:col-span-5 space-y-4">
               <div className="relative border-2 border-slate-200 bg-slate-50 p-2 shadow-xl group">
                 <img
@@ -86,10 +86,10 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
               </div>
             </div>
 
-            {/* Text & Rules Column */}
+            { }
             <div className="lg:col-span-7 space-y-8 relative">
               
-              {/* Number watermark callout */}
+              { }
               <div className="absolute -top-10 right-0 text-9xl font-bold font-editorial text-slate-100 select-none pointer-events-none hidden sm:block">
                 01
               </div>
@@ -135,7 +135,7 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
                 </div>
               </div>
 
-              {/* Direct WhatsApp Callout */}
+              { }
               <div className="p-4 bg-emerald-50 border-2 border-emerald-300 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
                 <div>
                   <p className="text-xs font-bold text-emerald-800 uppercase tracking-wider">Direct Mentorship Credentials</p>
@@ -158,7 +158,7 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
         </div>
       </section>
 
-      {/* SECTION 2: 3-STEP LIQUIDITY FRAMEWORK */}
+      { }
       <section id="framework" className="py-20 border-b border-slate-200 relative overflow-hidden bg-slate-50">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-15 pointer-events-none mix-blend-multiply contrast-100"
@@ -168,7 +168,7 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           
-          {/* Header */}
+          { }
           <div className="relative text-center max-w-3xl mx-auto space-y-4 mb-16">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-9xl font-bold font-editorial text-slate-200 select-none pointer-events-none -z-10">
               02
@@ -185,7 +185,7 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
             </p>
           </div>
 
-          {/* 3 Step Tabs Navigation */}
+          { }
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
             {STRATEGY_PILLARS.map((pillar) => {
               const isActive = pillar.id === activePillarId;
@@ -218,11 +218,11 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
             })}
           </div>
 
-          {/* Selected Pillar Content Box */}
+          { }
           <div className="bg-white border-2 border-slate-200 p-6 sm:p-10 text-slate-900 shadow-xl relative">
             <div className="grid lg:grid-cols-12 gap-8 items-center">
               
-              {/* Left Detail Description */}
+              { }
               <div className="lg:col-span-6 space-y-6">
                 <div>
                   <span className="text-[10px] font-mono text-red-600 tracking-[0.2em] uppercase font-bold">
@@ -253,7 +253,7 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
                 </div>
               </div>
 
-              {/* Right SVG Diagram */}
+              { }
               <div className="lg:col-span-6 bg-slate-950 p-6 border-2 border-slate-800 relative min-h-[340px] flex flex-col justify-between">
                 
                 <div className="flex items-center justify-between text-[11px] font-mono text-slate-400 border-b border-slate-800 pb-3">
@@ -264,7 +264,7 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
                   <span className="text-slate-500 font-bold">ALGORITHMIC MODEL</span>
                 </div>
 
-                {/* Diagram depending on active pillar */}
+                { }
                 <div className="py-6 flex items-center justify-center">
                   {activePillar.id === 'buildup' && (
                     <svg className="w-full h-52" viewBox="0 0 400 200" fill="none">
@@ -338,7 +338,7 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
         </div>
       </section>
 
-      {/* SECTION 3: FREQUENTLY ASKED QUESTIONS (FAQ) */}
+      { }
       <section id="faq" className="py-20 border-b border-slate-200 relative overflow-hidden bg-white">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-15 pointer-events-none mix-blend-multiply contrast-100"
@@ -348,7 +348,7 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           
-          {/* Header */}
+          { }
           <div className="relative text-center space-y-4 mb-16">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-9xl font-bold font-editorial text-slate-100 select-none pointer-events-none -z-10">
               03
@@ -364,7 +364,7 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
             </p>
           </div>
 
-          {/* Accordion list */}
+          { }
           <div className="space-y-4">
             {FAQS.map((faq, idx) => {
               const isOpen = openFaqIdx === idx;
@@ -399,7 +399,7 @@ export const SangProfile: React.FC<SangProfileProps> = ({ onOpenApplication }) =
             })}
           </div>
 
-          {/* Bottom Callout Box */}
+          { }
           <div className="mt-12 text-center p-8 bg-slate-50 border-2 border-slate-200 space-y-4 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-bold font-editorial text-slate-900 uppercase tracking-tight">
               READY TO MASTER INSTITUTIONAL FOREX ORDERFLOW?

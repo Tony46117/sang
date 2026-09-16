@@ -11,7 +11,7 @@ export const FaqSection = () => {
 
   return (
     <section id="faq" className="py-20 border-b border-slate-200 relative overflow-hidden bg-white">
-      {/* Background */}
+      { }
       <div
         className="absolute inset-0 bg-cover bg-center opacity-15 pointer-events-none mix-blend-multiply contrast-100"
         style={{ backgroundImage: "url('/background.jpeg')" }}
@@ -19,7 +19,7 @@ export const FaqSection = () => {
       <div className="absolute inset-0 bg-white/85 pointer-events-none" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Header */}
+        { }
         <div className="relative text-center space-y-4 mb-16">
           <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-9xl font-bold font-editorial text-slate-100 select-none pointer-events-none -z-10">
             03
@@ -35,7 +35,7 @@ export const FaqSection = () => {
           </p>
         </div>
 
-        {/* FAQ Accordion */}
+        { }
         <div className="space-y-4">
           {FAQS.map((faq, idx) => {
             const isOpen = openIdx === idx;
@@ -69,7 +69,7 @@ export const FaqSection = () => {
           })}
         </div>
 
-        {/* Bottom CTA */}
+        { }
         <div className="mt-12 text-center p-8 bg-slate-50 border-2 border-slate-200 space-y-4 shadow-sm">
           <h3 className="text-xl sm:text-2xl font-bold font-editorial text-slate-900 uppercase tracking-tight">
             READY TO MASTER INSTITUTIONAL FOREX ORDERFLOW?

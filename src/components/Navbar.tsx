@@ -19,7 +19,7 @@ export const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        {/* Brand */}
+        { }
         <a href="#" className="flex items-center gap-3 group">
           <div className="relative overflow-hidden rounded-none border border-slate-200 bg-white p-1 shadow-sm transition-all duration-300 group-hover:border-red-600 group-hover:shadow-md">
             <img
@@ -39,7 +39,7 @@ export const Navbar = () => {
           </div>
         </a>
 
-        {/* Desktop Nav */}
+        { }
         <nav className="hidden lg:flex items-center gap-8">
           {NAV_LINKS.map((link) => (
             <a
@@ -52,7 +52,7 @@ export const Navbar = () => {
           ))}
         </nav>
 
-        {/* Desktop CTA */}
+        { }
         <div className="hidden lg:flex items-center gap-3">
           <a
             href={WHATSAPP_LINK}
@@ -73,7 +73,7 @@ export const Navbar = () => {
           </a>
         </div>
 
-        {/* Mobile Hamburger */}
+        { }
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
           className="lg:hidden p-2 text-slate-700 hover:text-red-600 focus:outline-none"
@@ -83,7 +83,7 @@ export const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Drawer */}
+      { }
       {mobileOpen && (
         <div className="lg:hidden bg-white border-b border-slate-200 px-6 pt-2 pb-6 space-y-4 shadow-xl text-slate-900">
           <div className="flex flex-col space-y-3 pt-2">

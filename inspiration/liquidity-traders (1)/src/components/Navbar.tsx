@@ -17,7 +17,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenApplication }) => {
     <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200 text-slate-900 transition-all shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         
-        {/* Brand / Logo */}
+        { }
         <a href="#" className="flex items-center gap-3 group">
           <div className="relative overflow-hidden rounded border border-slate-200 bg-white p-1 shadow-sm transition-all duration-300 group-hover:border-red-500 group-hover:shadow-md">
             <img 
@@ -38,7 +38,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenApplication }) => {
           </div>
         </a>
 
-        {/* Desktop Navigation */}
+        { }
         <nav className="hidden lg:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
@@ -51,7 +51,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenApplication }) => {
           ))}
         </nav>
 
-        {/* Action Buttons */}
+        { }
         <div className="hidden lg:flex items-center gap-3">
           <a
             href="https://wa.me/254719250533"
@@ -72,7 +72,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenApplication }) => {
           </button>
         </div>
 
-        {/* Mobile menu button */}
+        { }
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           className="lg:hidden p-2 text-slate-700 hover:text-red-600 focus:outline-none"
@@ -82,7 +82,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenApplication }) => {
         </button>
       </div>
 
-      {/* Mobile Drawer */}
+      { }
       {mobileMenuOpen && (
         <div className="lg:hidden bg-white border-b border-slate-200 px-6 pt-2 pb-6 space-y-4 shadow-xl text-slate-900">
           <div className="flex flex-col space-y-3 pt-2">

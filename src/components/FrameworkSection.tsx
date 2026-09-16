@@ -61,7 +61,7 @@ export const FrameworkSection = () => {
 
   return (
     <section id="framework" className="py-20 border-b border-slate-200 relative overflow-hidden bg-slate-50">
-      {/* Background */}
+      { }
       <div
         className="absolute inset-0 bg-cover bg-center opacity-15 pointer-events-none mix-blend-multiply contrast-100"
         style={{ backgroundImage: "url('/background.jpeg')" }}
@@ -69,7 +69,7 @@ export const FrameworkSection = () => {
       <div className="absolute inset-0 bg-slate-50/85 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Header */}
+        { }
         <div className="relative text-center max-w-3xl mx-auto space-y-4 mb-16">
           <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-9xl font-bold font-editorial text-slate-200 select-none pointer-events-none -z-10">
             02
@@ -87,7 +87,7 @@ export const FrameworkSection = () => {
           </p>
         </div>
 
-        {/* Step Tabs */}
+        { }
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           {STRATEGY_PILLARS.map((pillar) => {
             const isActive = pillar.id === activePillarId;
@@ -130,10 +130,10 @@ export const FrameworkSection = () => {
           })}
         </div>
 
-        {/* Active Content */}
+        { }
         <div className="bg-white border-2 border-slate-200 p-6 sm:p-10 text-slate-900 shadow-xl relative">
           <div className="grid lg:grid-cols-12 gap-8 items-center">
-            {/* Text */}
+            { }
             <div className="lg:col-span-6 space-y-6">
               <div>
                 <span className="text-[10px] font-mono text-red-600 tracking-[0.2em] uppercase font-bold">
@@ -167,7 +167,7 @@ export const FrameworkSection = () => {
               </div>
             </div>
 
-            {/* SVG Diagram */}
+            { }
             <div className="lg:col-span-6 bg-slate-950 p-6 border-2 border-slate-800 relative min-h-[340px] flex flex-col justify-between">
               <div className="flex items-center justify-between text-[11px] font-mono text-slate-400 border-b border-slate-800 pb-3">
                 <span className="flex items-center gap-2 font-bold uppercase text-red-500">
